@@ -1,7 +1,7 @@
 ---
 ---
 
-# Machine learning methods for next-generation clinical decision support
+# Machine learning methods for next-gen clinical decision support
 
 
 
@@ -11,12 +11,16 @@
 
 {% capture text %}
 
-Recent publications
+We develop methods to support clinical decision-making from multi-modal clinical data.
+- longitudinal risk surveillance
+- agentic clinical risk prediction systems
+- accurate uncertainty quantification
+- causal inference in longitudinal settings
 
 {%
   include button.html
-  link="research"
-  text="See our publications"
+  link="methods"
+  text="Explore methods we are developing"
   icon="fa-solid fa-arrow-right"
   flip=true
   style="bare"
@@ -27,19 +31,23 @@ Recent publications
 {%
   include feature.html
   image="images/photo.jpg"
-  link="research"
-  title="Our Research"
+  link="methods"
+  title="Methods Development"
   text=text
 %}
 
 {% capture text %}
 
-Current projects
+Clinical applications include:
+- early detection of autism, ADHD, and other neurodevelopmental conditions
+- predicting adolescent mental health trajectories
+- equitable stroke risk prediction
+- understanding longitudinal endotypes in systemic lupus erythematosus
 
 {%
   include button.html
-  link="projects"
-  text="Browse our projects"
+  link="applications"
+  text="Explore clinical applications of our work"
   icon="fa-solid fa-arrow-right"
   flip=true
   style="bare"
@@ -50,8 +58,8 @@ Current projects
 {%
   include feature.html
   image="images/photo.jpg"
-  link="projects"
-  title="Our Projects"
+  link="applications"
+  title="Clinical Applications"
   flip=true
   style="bare"
   text=text
@@ -59,7 +67,7 @@ Current projects
 
 {% capture text %}
 
-Meet our team
+Our students, fellows, and staff collaborate with quantitative and clinical faculty across a range of departments and specialties.
 
 {%
   include button.html
