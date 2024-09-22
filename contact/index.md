@@ -15,12 +15,7 @@ Get in touch! We are currently recruiting PhD students.
   text="engelhard-lab@duke.edu"
   link="engelhard-lab@duke.edu"
 %}
-#{%
-#  include button.html
-#  type="phone"
-#  text="(555) 867-5309"
-#  link="+1-555-867-5309"
-#%}
+
 {%
   include button.html
   type="address"
@@ -52,21 +47,6 @@ Get in touch! We are currently recruiting PhD students.
 
 {% include cols.html col1=col1 col2=col2 %}
 
-#{% include section.html dark=true %}
-#
-#{% capture col1 %}
-#Lorem ipsum dolor sit amet  
-#consectetur adipiscing elit  
-#sed do eiusmod tempor
-#{% endcapture %}
-#
-#{% capture col2 %}
-#Lorem ipsum dolor sit amet  
-#consectetur adipiscing elit  
-#sed do eiusmod tempor
-#{% endcapture %}
-#
-#{% capture col3 %}
 #Lorem ipsum dolor sit amet  
 #consectetur adipiscing elit  
 #sed do eiusmod tempor
