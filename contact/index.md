@@ -47,9 +47,3 @@ Get in touch! We are currently recruiting PhD students.
 
 {% include cols.html col1=col1 col2=col2 %}
 
-#Lorem ipsum dolor sit amet  
-#consectetur adipiscing elit  
-#sed do eiusmod tempor
-#{% endcapture %}
-#
-#{% include cols.html col1=col1 col2=col2 col3=col3 %}
